@@ -22,8 +22,8 @@ h1 {
 }
 
 /* travel city styles */
-div {
-  background-size: 100%;
+.container div {
+  background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -32,11 +32,16 @@ div {
   margin-bottom: 2em;
 }
 @media screen and (min-width: 575px){
-  div {
+  .container div {
    margin: 1%;
-   width: 48%;
+   width: 47%;
+   display: inline-block;
+ }
+ .container {
+   margin: 0 30em;
  }
 }
+
 
 .preview-baku {
   background-image: url(/images/baku.jpg);
