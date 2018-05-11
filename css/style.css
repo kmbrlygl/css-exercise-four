@@ -31,10 +31,22 @@ h1 {
   padding: 3em 0 0 3em;
   margin-bottom: 2em;
 }
+
 @media screen and (min-width: 575px){
   .container div {
    margin: 1%;
    width: 47%;
+   display: inline-block;
+ }
+ .container {
+   margin: 0 30em;
+ }
+}
+
+@media screen and (min-width: 991px){
+  .container div {
+   margin: 1%;
+   width: 22%;
    display: inline-block;
  }
  .container {
