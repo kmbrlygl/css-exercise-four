@@ -24,7 +24,7 @@ h1 {
 }
 
 /* travel city divs & media queries */
-.container div {
+.preview {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ h1 {
 }
 
 @media screen and (min-width: 575px){
-  .container div {
+  .preview {
    margin: 1%;
    width: 47%;
    height: 20em;
@@ -48,7 +48,7 @@ h1 {
 }
 
 @media screen and (min-width: 991px){
-  .container div {
+  .preview {
    margin: 1%;
    width: 22%;
    height: 17.3em;
@@ -60,19 +60,19 @@ h1 {
  }
 }
 
-.preview-baku {
+.baku {
   background-image: url(../images/baku.jpg);
 }
 
-.preview-london {
+.london {
   background-image: url(../images/london.png);
 }
 
-.preview-madrid {
+.madrid {
   background-image: url(../images/madrid.jpg);
 
 }
-.preview-rome {
+.rome {
   background-image: url(../images/rome.jpg);
 
 }
